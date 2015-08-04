@@ -35,5 +35,5 @@ remote_file "/etc/init.d/kibana4" do
 end
 
 service "kibana4" do 
-	action :start
+	action :restart
 end
